@@ -1,0 +1,94 @@
+body {
+    background-color: darkslategrey;
+}
+
+#main-content {
+    max-width: 759px;
+    padding: 2em 3em;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.col-md-12 {
+    width: 100%;
+    display: contents;
+}
+
+.col-md-6 {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+}
+
+
+.firstDva{
+    padding: 12px;
+    background: darkcyan;
+    border-radius: 12px;
+    width: 17%;
+    position: fixed;
+    left: 10px;
+    margin: 0px;
+    display: grid;
+    top: 28px;;
+}
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: unset;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.playerNames{
+padding: 12px;
+    background: darkcyan;
+    border-radius: 12px;
+    width: 19%;
+    position: fixed;
+    right: 10px;
+    margin: 10px;
+    display: grid;
+    top: 28px;
+    }
+
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 8px;
+    border-radius: 11px;
+    border: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding-inline: 46px;
+
+}
+
+.btnHostJoin{
+    width: fit-content;
+    margin: 10px auto 0;
+}
+
+.secondDva{
+    width: fit-content;
+    position: fixed;
+    background: cadetblue;
+    bottom: 251px;
+    display: grid;
+    padding: 10px;
+    border-radius: 19px;
+    margin: 8px;
+}
