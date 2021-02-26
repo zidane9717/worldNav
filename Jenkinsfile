@@ -11,6 +11,7 @@ pipeline{
      steps{
        sh "mvn -version"
        sh "mvn clean"
+       sh "mvn install"
       }
    }
    stage("Build Docker Image"){
