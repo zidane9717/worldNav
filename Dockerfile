@@ -13,4 +13,4 @@ WORKDIR /app
 
 COPY --from=build-env /app/target/worldnav-1.0.jar ./worldnav-1.0.jar
 CMD ["java", "-jar", "/worldnav-1.0.jar"]
-CMD ["/usr/bin/java", "-jar", "/app/petclinic.jar"]
+CMD ["/usr/bin/java", "-jar", "/app/worldnav-1.0.jar"]
