@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Chest implements Entity,CheckableEntity {
-
+//
     private List items;
     private String name;
     private int state;
